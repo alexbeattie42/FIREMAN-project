@@ -1,4 +1,7 @@
 name: fireman
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - numpy
   - pandas

@@ -1,0 +1,18 @@
+# LEWIS
+srun -p Gpu --gres gpu:"Tesla P100-PCIE-12GB":1 -n 8 --mem 64G  --pty /bin/bash
+
+## Tunnel
+ssh -L 8888:lewis4-r730-gpu3-node687:8888 akbkx8@lewis.rnet.misso
+uri.edu
+
+
+
+# CSC
+TMPDIR=/scratch/project_2003383/tmp pip install --cache-dir=$TMPDIR --build $T
+MPDIR -r requirement.txt
+
+## Tunnel
+ssh -L 8888:lewis4-r730-gpu3-node687:8888 akbkx8@lewis.rnet.misso
+uri.edu
+
+python3 -m notebook

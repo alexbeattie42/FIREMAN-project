@@ -1,5 +1,17 @@
 # <img src="https://github.com/5uperpalo/FIREMAN-project/blob/master/images/logo-fireman.png" height="64" />FIREMAN-project main repository
 
+## Installation Instructions
+
+1. Create a new virtual env with conda or venv
+2. Run `pip install -r requirements.txt` in the virtual environment
+
+### Updating requirements
+```bash
+pip install pipreqs
+
+pipreqs . --force
+```
+
 Machine learning scripts and notebooks related to [FIREMAN project](https://fireman-project.eu/).
 
 Artificial dataset used for development:

@@ -1,0 +1,5 @@
+name: fireman
+dependencies:
+  - numpy
+  - pandas
+  - pyreadr

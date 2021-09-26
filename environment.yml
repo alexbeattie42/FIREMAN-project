@@ -2,9 +2,12 @@ name: fireman
 channels:
   - conda-forge
   - defaults
+  - auto
 dependencies:
   - numpy
   - pandas
   - pyreadr
   - jupyterlab
   - scikit-learn
+  - arff
+  - matplotlib

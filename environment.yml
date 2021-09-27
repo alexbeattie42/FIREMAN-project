@@ -9,6 +9,7 @@ dependencies:
   - jupyterlab
   - scikit-learn
   - matplotlib
+  - pip
   - pip:
       # works for regular pip packages
       - arff

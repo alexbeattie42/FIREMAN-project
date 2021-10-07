@@ -13,3 +13,8 @@ shap==0.39.0
 eli5==0.11.0
 pytorch-widedeep==1.0.9
 jupyter==1.0.0
+river==0.8.0
+arff==0.9
+pysad
+combo
+mmh3

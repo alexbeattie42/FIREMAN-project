@@ -18,3 +18,5 @@ arff==0.9
 pysad
 combo
 mmh3
+PyNomaly
+rrcf
